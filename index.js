@@ -1,7 +1,6 @@
 const fs = require('fs');
 const coPackage = require('./package.json');
 const sem = require('semver');
-const path = require('path');
 const execSync = require('child_process').execSync;
 const json = require('json');
 

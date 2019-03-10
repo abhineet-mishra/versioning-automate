@@ -16,5 +16,10 @@
     "tagging"
   ],
   "author": "Abhineet Mishra <abhineetmishra123@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "json": "^9.0.6",
+    "semver": "^5.6.0"
+  }
 }
