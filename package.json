@@ -1,6 +1,6 @@
 {
   "name": "release-versioning",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automate release versioning and tagging",
   "main": "index.js",
   "scripts": {
