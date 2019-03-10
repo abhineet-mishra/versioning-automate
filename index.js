@@ -22,6 +22,7 @@ standard_input.on('data', function(data) {
     // checking whether the entered version satisfies semantic versioning
     if (inp[0].includes('rc') || sem.satisfies(`${inp[0]}`, `>=${coPackage.version}`)) {
       const version = inp[0];
+      console.log('This is the final version', version);
       const cmd = `json -I -f package.json -e 'this.version="${version}"'`;
       run(cmd);
       run('rm -f .git/index.lock');
