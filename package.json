@@ -1,5 +1,5 @@
 {
-  "name": "@abhineet_mishra/versioning-automate",
+  "name": "release-versioning",
   "version": "1.0.0",
   "description": "Automate release versioning and tagging",
   "main": "index.js",
